@@ -84,12 +84,23 @@ const Header = () => {
             {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
           </button>
           
-          <Link 
-            to="assets/Maheshwaran_M_Resume.pdf" 
-            className="btn-primary"
-          >
-            Resume
-          </Link>
+          const ResumeDownload: React.FC = () => {
+  return (
+    <section className="animated-section text-center">
+      <h2 className="text-2xl font-bold">Download My Resume</h2>
+      <div className="mt-4">
+        <Link
+          to="#"
+          className="inline-block px-6 py-3 bg-green-500 text-black font-bold rounded-md transition-transform transform hover:bg-green-600 hover:scale-110"
+          onClick={() => window.open("assets/Maheshwaran_M_Resume.pdf", "_blank")}
+        >
+          Download Resume
+        </Link>
+      </div>
+    </section>
+  );
+};
+          
         </nav>
         
         {/* Mobile Menu Button */}
@@ -140,13 +151,24 @@ const Header = () => {
               </li>
             ))}
             <li className="mt-4">
-              <Link 
-                to="assets/Maheshwaran_M_Resume.pdf" 
-                className="btn-primary block text-center"
-                onClick={toggleMenu}
-              >
-                Resume
-              </Link>
+              
+            const ResumeDownload: React.FC = () => {
+  return (
+    <section className="animated-section text-center">
+      <h2 className="text-2xl font-bold">Download My Resume</h2>
+      <div className="mt-4">
+        <Link
+          to="#"
+          className="inline-block px-6 py-3 bg-green-500 text-black font-bold rounded-md transition-transform transform hover:bg-green-600 hover:scale-110"
+          onClick={() => window.open("assets/Maheshwaran_M_Resume.pdf", "_blank")}
+        >
+          Download Resume
+        </Link>
+      </div>
+    </section>
+  );
+};
+              
             </li>
           </ul>
         </nav>
