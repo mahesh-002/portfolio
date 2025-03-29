@@ -12,7 +12,7 @@ import { ThemeProvider } from '@/components/ThemeProvider';
 
 const Index = () => {
   useEffect(() => {
-    document.title = 'Maheshwaran M - Full Stack Developer';
+    document.title = 'Maheshwaran M - Mobile App | Web Developer';
   }, []);
   
   return (

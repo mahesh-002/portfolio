@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="space-y-6">
           <div className="opacity-0 animate-fade-in-delay-1">
             <p className="inline-block bg-portfolio-blue/10 text-portfolio-blue px-4 py-2 rounded-full font-medium mb-4">
-              Full Stack Developer
+              Mobile App | Web Developer
             </p>
           </div>
           
