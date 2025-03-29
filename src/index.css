@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 20% 98%;
+    --foreground: 215 25% 27%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 27%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 27%;
+
+    --primary: 204 93% 39%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 203 80% 93%;
+    --secondary-foreground: 215 25% 27%;
+
+    --muted: 220 14% 96%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 199 89% 77%;
+    --accent-foreground: 215 25% 27%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 204 93% 39%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 230 20% 10%;
+    --foreground: 210 20% 98%;
+
+    --card: 230 20% 12%;
+    --card-foreground: 210 20% 98%;
+
+    --popover: 230 20% 12%;
+    --popover-foreground: 210 20% 98%;
+
+    --primary: 204 93% 39%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 215 25% 20%;
+    --secondary-foreground: 210 20% 98%;
+
+    --muted: 230 20% 15%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 215 25% 20%;
+    --accent-foreground: 210 20% 98%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 215 20% 25%;
+    --input: 215 20% 25%;
+    --ring: 204 93% 39%;
+  }
+  
+  * {
+    @apply border-border;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+
+  section {
+    @apply py-20 px-6;
+  }
+
+  @media (min-width: 768px) {
+    section {
+      @apply px-10;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    section {
+      @apply px-16;
+    }
+  }
+}
+
+@layer components {
+  .container-wrapper {
+    @apply max-w-7xl mx-auto w-full;
+  }
+  
+  .title-underline {
+    @apply relative inline-block;
+  }
+  
+  .title-underline::after {
+    @apply content-[''] absolute -bottom-2 left-0 w-1/3 h-1 bg-portfolio-blue rounded;
+  }
+  
+  .nav-link {
+    @apply hover:text-portfolio-blue transition-all duration-200;
+  }
+  
+  .btn-primary {
+    @apply bg-portfolio-blue text-white px-6 py-3 rounded-md hover:bg-blue-700 transition-all duration-200 inline-flex items-center gap-2;
+  }
+  
+  .skill-card {
+    @apply bg-card shadow-md p-4 rounded-lg flex flex-col items-center justify-center gap-2 transform hover:scale-105 transition-all duration-300;
+  }
+  
+  .project-card {
+    @apply bg-card shadow-md rounded-lg overflow-hidden transition-all duration-300 hover:shadow-xl;
+  }
+
+  .glass-effect {
+    @apply backdrop-blur-md dark:bg-white/5 dark:border-white/10 bg-white/80 border-gray-200/50 border shadow-lg;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
