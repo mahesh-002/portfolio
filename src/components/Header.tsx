@@ -85,7 +85,7 @@ const Header = () => {
           </button>
           
           <Link 
-            to="/asset/Resume_Maheshwaran.pdf" 
+            to="assets/Maheshwaran_M_Resume.pdf" 
             className="btn-primary"
           >
             Resume
@@ -141,7 +141,7 @@ const Header = () => {
             ))}
             <li className="mt-4">
               <Link 
-                to="/asset/Resume_Maheshwaran.pdf" 
+                to="assets/Maheshwaran_M_Resume.pdf" 
                 className="btn-primary block text-center"
                 onClick={toggleMenu}
               >

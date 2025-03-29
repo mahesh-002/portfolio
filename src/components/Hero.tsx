@@ -51,7 +51,7 @@ const Hero = () => {
         <div className="hidden md:block relative">
           <div className="relative bg-gradient-to-tr from-portfolio-blue to-portfolio-lightBlue rounded-full w-80 h-80 mx-auto overflow-hidden opacity-0 animate-fade-in">
             <img 
-              src="assets\profile.jpg" 
+              src="assets/profile.jpg" 
               alt="Maheshwaran M" 
               className="object-cover w-full h-full"
             />
