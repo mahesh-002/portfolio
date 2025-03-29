@@ -85,10 +85,10 @@ const Header = () => {
           </button>
           
           <Link 
-            to="/#contact" 
+            to="/asset/Resume_Maheshwaran.pdf" 
             className="btn-primary"
           >
-            Let's Talk
+            Resume
           </Link>
         </nav>
         
@@ -141,11 +141,11 @@ const Header = () => {
             ))}
             <li className="mt-4">
               <Link 
-                to="/#contact" 
+                to="/asset/Resume_Maheshwaran.pdf" 
                 className="btn-primary block text-center"
                 onClick={toggleMenu}
               >
-                Let's Talk
+                Resume
               </Link>
             </li>
           </ul>
