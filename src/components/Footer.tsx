@@ -42,7 +42,7 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Let's Connect</h3>
             <div className="flex gap-4">
               <a 
-                href="https://github.com/maheswarantp" 
+                href="https://github.com/mahesh-002/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 aria-label="GitHub"
@@ -54,7 +54,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a 
-                href="https://www.linkedin.com/in/maheswar-an/" 
+                href="https://www.linkedin.com/in/maheshwaran002/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 aria-label="LinkedIn"
@@ -67,7 +67,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a 
-                href="https://twitter.com/maheswarantp" 
+                href="https://twitter.com/maheshwaran_in" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 aria-label="Twitter"

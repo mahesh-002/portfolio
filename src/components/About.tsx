@@ -18,10 +18,15 @@ const About = () => {
           <div className="space-y-6 animate-fade-in-left">
             <h3 className="text-2xl font-bold">Who am I?</h3>
             <p className="text-muted-foreground">
-              I'm Maheshwaran M, a passionate Mobile & Web App Developer with expertise in Flutter, Firebase, and Java. I'm eager to contribute my technical skills and innovation to a dynamic team while continuously learning and growing in software development.
+              I'm Maheshwaran M, a passionate Mobile & Web App Developer with 
+              expertise in Flutter, Firebase, and Java. I'm eager to contribute 
+              my technical skills and innovation to a dynamic team while continuously
+               learning and growing in software development.
             </p>
             <p className="text-muted-foreground">
-              I'm committed to delivering impactful solutions that drive both personal and organizational success. With experience in mobile development and a strong foundation in web technologies, I enjoy building responsive and intuitive applications.
+              I'm committed to delivering impactful solutions that drive both personal
+               and organizational success. With experience in mobile development and 
+               a strong foundation in web technologies, I enjoy building responsive and intuitive applications.
             </p>            
             <div className="pt-4">
               <a 

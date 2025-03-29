@@ -26,13 +26,13 @@ const Hero = () => {
           
           <div className="pt-4 space-y-6 opacity-0 animate-fade-in-delay-3">
             <div className="flex gap-6">
-              <a href="https://github.com/maheswarantp" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-muted-foreground hover:text-portfolio-blue transition-colors">
+              <a href="https://github.com/mahesh-002/" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-muted-foreground hover:text-portfolio-blue transition-colors">
                 <Github size={24} />
               </a>
-              <a href="https://www.linkedin.com/in/maheswar-an/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-muted-foreground hover:text-portfolio-blue transition-colors">
+              <a href="https://www.linkedin.com/in/maheshwaran002/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-muted-foreground hover:text-portfolio-blue transition-colors">
                 <Linkedin size={24} />
               </a>
-              <a href="https://twitter.com/maheswarantp" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="text-muted-foreground hover:text-portfolio-blue transition-colors">
+              <a href="https://twitter.com/maheshwaran_in" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="text-muted-foreground hover:text-portfolio-blue transition-colors">
                 <Twitter size={24} />
               </a>
             </div>
@@ -52,7 +52,7 @@ const Hero = () => {
           <div className="relative bg-gradient-to-tr from-portfolio-blue to-portfolio-lightBlue rounded-full w-80 h-80 mx-auto overflow-hidden opacity-0 animate-fade-in">
             <img 
               src="https://maheshwaran.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fme.aa4adf04.jpeg&w=3840&q=75" 
-              alt="Maheshwaran" 
+              alt="Maheshwaran M" 
               className="object-cover w-full h-full"
             />
           </div>
